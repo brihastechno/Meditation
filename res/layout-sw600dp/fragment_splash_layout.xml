@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/farame_aftersplash"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/image_logo_description"
+        android:src="@drawable/imagelogo" />
+
+ <LinearLayout
+        android:id="@+id/frame2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+ >
+    <LinearLayout
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+             android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/imageView_author"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:contentDescription="@string/image_author_description" />
+
+            <TextView
+                android:id="@+id/textView_authorname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/activity_line" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@android:color/white"
+            android:textSize="35sp" />
+</LinearLayout>
+        <TextView
+            android:id="@+id/textView_medi_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="60sp" />
+        </LinearLayout>
+
+
+</FrameLayout>

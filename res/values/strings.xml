@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meditation</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- activity_splash_page_layout -->
+    <string name="image_logo_description">Logo_Image</string>
+    <string name="textview_tap">Tap for Menu</string>
+
+    <!-- activity_after_splash_layout -->
+    <string name="image_author_description">Author_Image</string>
+
+    <!-- activity_play_lesson_layout -->
+    <string name="image_play__pause_description">Play_Image</string>
+
+    <!-- activity_setting_layout -->
+    <string name="rate_string">Rate Our App</string>
+    <string name="push_string">Push Notification</string>
+    <string name="privacy_string">Privacy Policy</string>
+    <string name="terms_string">Term &amp; Conditions</string>
+    <string name="version_string">Version 1.0.38</string>
+    <string name="Setting">SETTING</string>
+    <string name="image_forward_arrow">Forward Arrow</string>
+
+    <!-- activity_Connect_layout -->
+    <string name="widge_string">Sign up to get updates on our latest apps,special offers and more!</string>
+    <string name="share_string">Share this App</string>
+    <string name="Connect">CONNECT</string>
+    <string name="image_facebook">Facebook Icon</string>
+    <string name="image_tweet">Tweet</string>
+    <string name="image_sms">SMS ICON</string>
+    <string name="image_message">Message Icon</string>
+
+    <!-- custom_app_layout -->
+    <string name="image_APP_thumb">APP ThumbNail</string>
+    <string name="image_p">Play Image</string>
+
+    <!-- fragment_meditation_list -->
+    <string name="meditation">AFFIRMATION MEDITATIONS</string>
+
+    <!-- fragment_store_moreeapps -->
+    <string name="moreapp">MORE APPS</string>
+
+</resources>

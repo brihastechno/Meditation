@@ -1,0 +1,202 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:layout_margin="5dp"
+        android:background="@drawable/region_dark_back" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_connect_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:drawableBottom="@drawable/activity_line"
+                android:gravity="center_horizontal"
+                android:text="@string/Connect"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/activity_line" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top|left"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/region_dark_back"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView_shere_this"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/share_string"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp" >
+
+                            <FrameLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <ImageView
+                                    android:id="@+id/imageView_facebook"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:contentDescription="@string/image_facebook"
+                                    android:src="@drawable/icon_facebook" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <ImageView
+                                    android:id="@+id/imageView_tweet"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:contentDescription="@string/image_tweet"
+                                    android:src="@drawable/icon_tweetor" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <ImageView
+                                    android:id="@+id/imageView_message"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:contentDescription="@string/image_message"
+                                    android:src="@drawable/icon_message" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <ImageView
+                                    android:id="@+id/imageView_sms"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:contentDescription="@string/image_sms"
+                                    android:src="@drawable/icon_sms" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="top|left"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/region_dark_back"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView_widget"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/widge_string"
+                            android:textColor="@android:color/white"
+                            android:textSize="30sp" />
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp" >
+
+                            <EditText
+                                android:id="@+id/editText1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="80dp"
+                                android:layout_gravity="left|center_vertical"
+                                android:layout_marginRight="160dp"
+                                android:layout_marginTop="3dp"
+                          android:background="@drawable/edfittext_xml"
+                                android:ems="10"
+                                android:inputType="textEmailAddress"
+                                android:paddingLeft="30dp"
+                                android:textSize="30sp"
+                                  android:hint="Email"
+                              >
+
+                            </EditText>
+
+                            <Button
+                                android:id="@+id/button_go"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="right|center_vertical"
+                                android:background="@drawable/button_round"
+                                android:text="Go"
+                                android:textColor="@android:color/white"
+                                android:textSize="30sp" />
+                        </FrameLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

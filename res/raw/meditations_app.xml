@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+
+    <meditation
+        id="med2"
+        name="FREEDOM SERIES"
+        applogo=""
+        appname="FREEDOM SERIES"
+        appurl=""
+        authorimage="bob_proctor_pic"
+        authorname="Bob Proctor"
+        backgroundFile="intromusic.mp3"
+        title="Affirmations Meditations"
+        videoFile="sample_back.mp4" >
+        <stores>
+            
+            <store_app
+                id="1"
+                App_Url="http://www.google.com"
+                App_author="Bob Proctor"
+                App_name="VISULALIZATION"
+                App_thumbnail="image_thumb_two"
+                App_title="Quotes Meditation" />
+            <store_app
+                id="2"
+                App_Url="http://www.google.com"
+                App_author="Peggy McColl"
+                App_name="ABUNDANCE"
+                App_thumbnail="image_thumb_one"
+                App_title="Affirmations Meditations" />
+            <store_app
+                id="3"
+                App_Url="http://www.google.com"
+                App_author="Gay Hendricks"
+                App_name="LOVE"
+                App_thumbnail="image_thumb_three"
+                App_title="Quotes Meditation" />
+            <store_app
+                id="4"
+                App_Url="http://www.google.com"
+                App_author="Gay Hendricks"
+                App_name="FAITH"
+                App_thumbnail="image_thumb_two"
+                App_title="Affirmations Meditations" />
+            <store_app
+                id="5"
+                App_Url="http://www.google.com"
+                App_author="Peggy McColl"
+                App_name="SACRIFICE"
+                App_thumbnail="image_thumb_one"
+                App_title="Quotes Meditation" />
+            <store_app
+                id="6"
+                App_Url="http://www.google.com"
+                App_author="Mr. WRights"
+                App_name="WEALTH"
+                App_thumbnail="image_thumb_three"
+                App_title="Affirmations Meditations" />
+            <store_app
+                id="7"
+                App_Url="http://www.google.com"
+                App_author="Bob Proctor"
+                App_name="SUCCESS"
+                App_thumbnail="image_thumb_three"
+                App_title="Quotes Meditation" />
+        </stores>
+
+        <meditations>
+            <med
+                id="1"
+                name="What Are You Doing"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="2"
+                name="Purpose Visons Goals"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="3"
+                name="The Big One"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="4"
+                name="Denominator Success"
+                audio="ring3.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="5"
+                name="Challenge Your Potential"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="6"
+                name="Multiple Resources Of Income"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="7"
+                name="Forget About Luck"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="8"
+                name="Your Gold Mind"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+            <med
+                id="9"
+                name="All Lessons 50%Off"
+                audio="audio_sample1.mp3"
+                logo="mind_logo"
+                video="lesson_back.mp4" />
+        </meditations>
+    </meditation>
+
+</app>

@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top|left"
+        android:layout_margin="5dp"
+        android:background="@drawable/region_dark_back"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_frag_moreapp_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/moreapp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/activity_line" >
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridview_more_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="200dp"
+            android:fadeScrollbars="true"
+            android:fadingEdge="none"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1dp" >
+        </GridView>
+    </LinearLayout>
+
+</FrameLayout>
